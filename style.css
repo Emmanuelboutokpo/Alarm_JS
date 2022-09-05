@@ -1,0 +1,200 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: rgb(57, 122, 184);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.to24_12{
+    width: 55px;
+    height: 25px;
+    margin-right: 15px;
+}
+
+.reset{
+    width: 50px;
+    height: 25px;
+    background: rgb(99, 9, 9);
+    color: #fff;
+    border-radius: 3px;
+    border: 1px solid transparent;
+    cursor: pointer;
+}
+
+.reset:hover{
+    background-color: rgb(255, 0, 0);
+    transition: 1s;
+}
+
+.container{
+    background-color: #fff;
+    width: 60%;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.32);
+}
+
+.clock{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+img{
+     margin-bottom: 20px;
+}
+
+h1{
+    margin-bottom: 10px;
+    font-size: 1.5rem;
+} 
+
+p{
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.chooseTime{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+.setAlarm{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;  
+}
+
+.getAlarm{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;  
+    display: flex;
+}
+
+select{
+    width: 35px;
+    height: 25px;
+    border-radius: 5px;
+    outline: none;
+}
+
+.set{
+    margin-top: 20px;
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid transparent;
+    outline: none;
+    background: rgb(57, 122, 184);
+    color: #fff;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.disables{
+    pointer-events: none;
+}
+
+.disabl{
+    pointer-events: none;
+}
+
+.set:hover{
+    background: rgb(9, 5, 72);
+     transition: 1s;
+}
+
+  @media only screen and (min-width:410px){
+    select{
+        width: 45px;
+        height: 35px;
+        border-radius: 5px;
+        outline: none;
+    }
+   } 
+
+   
+  @media only screen and (min-width:500px){
+    select{
+        width: 60px;
+        height: 40px;
+    }
+    
+   } 
+   
+  @media only screen and (min-width:600px){
+    .container{
+        width: 55%;
+    }
+
+    select{
+        width: 65px;
+        height: 40px;
+    }
+   } 
+
+  @media only screen and (min-width:700px){
+    .container{
+        width: 50%;
+    }
+
+    select{
+        width: 75px;
+        height: 40px;
+    }
+
+    h1{
+        font-size: 2rem;
+    } 
+
+   } 
+
+   @media only screen and (min-width:800px){
+    .container{
+        width: 45%;
+    }
+
+    select{
+        width: 80px;
+        height: 45px;
+    }
+   
+   } 
+
+   @media only screen and (min-width:900px){
+    .container{
+        width: 40%;
+    }
+
+    select{
+        width: 75px;
+        height: 45px;
+    }
+   
+   } 
+
+   @media only screen and (min-width:1100px){
+    .container{
+        width: 30%;
+    }
+
+    select{
+        width: 75px;
+        height: 45px;
+    }
+
+   } 
